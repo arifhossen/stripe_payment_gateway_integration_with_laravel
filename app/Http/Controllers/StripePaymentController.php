@@ -63,6 +63,7 @@ class StripePaymentController extends Controller
                     'currency' => 'USD',
                     'amount'   => $request->get('amount'),
                     'description' => 'Add in wallet',
+                    'capture' => false,
                 ]);
                 if($charge['status'] == 'succeeded') {
                     /**

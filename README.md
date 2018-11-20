@@ -1,5 +1,5 @@
 
-Stripe Payment Gateway Integration with Laravel 5.7: 
+# Stripe Payment Gateway Integration with Laravel 5.7: 
 
 Step 1:  open your composer.json file and put following one package in require array , add this package "cartalyst/stripe-laravel": "9.0.*"
 
